@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Image to Text",
+st.set_page_config(page_title="ConceptLens",
                    page_icon=":bridge_at_night:",
                    layout="wide")
 
