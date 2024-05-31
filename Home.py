@@ -26,6 +26,8 @@ with col1:
         st.link_button("ECII", url = 'https://arxiv.org/abs/1812.03243')
         st.link_button("Error-margin Analysis", url = 'https://arxiv.org/abs/2405.09580')
         st.link_button("Hidden Neuron Activation Analysis", url = 'http://arxiv.org/abs/2404.13567')
+        st.link_button("Github repo", url = 'https://github.com/abhilekha-dalal/ConceptLens')
+
         
     # button to the "Upload Images" page
     st.link_button("Explore ConceptLens now!", url = '/Upload_Images')
