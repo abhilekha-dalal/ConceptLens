@@ -10,20 +10,21 @@ col1, col2 = st.columns([2,1.5])
 
 # First vertical container in the first column
 with col1:
-    ### video
-    video_file = open('video.mp4', 'rb')
-    video_bytes = video_file.read()
-    width = st.sidebar.slider(
-    label="Width", min_value=0, max_value=100, value=100, format="%d%%"
-    )
-    width = max(width, 0.01)
-    side = max((100 - width) / 2, 0.01)
-    _, container, _ = st.columns([side, width, side])
-    container.video(data=video_bytes,loop=True, autoplay=True)
+    st.image('example1.jpg', use_column_width = True, caption='Sunrise by the mountains')
+    # ### video
+    # video_file = open('video.mp4', 'rb')
+    # video_bytes = video_file.read()
+    # #width = st.sidebar.slider(
+    # #label="Width", min_value=0, max_value=100, value=100, format="%d%%"
+    # #)
+    # width = max(100, 0.01)
+    # side = max((100 - width) / 2, 0.01)
+    # _, container, _ = st.columns([side, width, side])
+    # container.video(data=video_bytes,loop=True, autoplay=True)
 
     with st.sidebar:
         st.header("Link to related resources")
-        st.link_button("ECII", url = 'https://arxiv.org/abs/1812.03243')
+        #st.link_button("ECII", url = 'https://arxiv.org/abs/1812.03243')
         st.link_button("Error-margin Analysis", url = 'https://arxiv.org/abs/2405.09580')
         st.link_button("Hidden Neuron Activation Analysis", url = 'http://arxiv.org/abs/2404.13567')
         st.link_button("Github repo", url = 'https://github.com/abhilekha-dalal/ConceptLens')
