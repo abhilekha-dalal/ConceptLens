@@ -9,7 +9,6 @@ from random import randint
 from streamlit_image_select import image_select
 import time
 
-#st.set_page_config(page_title="Image Upload Page", page_icon=":camera:", layout="wide")
 st.header("Upload Your Images")
 st.markdown("You have the option to select images from our curated gallery or upload your own unique photos to personalize your experience.")
 st.markdown("Scroll down for results ⏬ It may take a few seconds, so thank you for your patience! 😊")
@@ -35,11 +34,11 @@ with gallery_placeholder.container():
         img = image_select(
         label="Choose an image from the options below",
         images=[
-            "examples/bedroom.jpeg",
-            "examples/highway.jpg",
-            "examples/living_space.jpg",
-            "examples/road.jpeg",
-            "examples/vehicle.jpeg"
+            "C:/Users/adalal/OneDrive - Kansas State University/PhD/New_Research/demonstrator/examples/bedroom.jpeg",
+            "C:/Users/adalal/OneDrive - Kansas State University/PhD/New_Research/demonstrator/examples/highway.jpg",
+            "C:/Users/adalal/OneDrive - Kansas State University/PhD/New_Research/demonstrator/examples/living_space.jpg",
+            "C:/Users/adalal/OneDrive - Kansas State University/PhD/New_Research/demonstrator/examples/road.jpeg",
+            "C:/Users/adalal/OneDrive - Kansas State University/PhD/New_Research/demonstrator/examples/vehicle.jpeg"
             ],
         use_container_width=True)
 process_image = st.button("Process Selected Image")
