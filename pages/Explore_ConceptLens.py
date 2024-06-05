@@ -48,7 +48,8 @@ st.markdown("Or upload your own images:")
 with st.form("my-form", clear_on_submit=True):
     uploaded_files = st.file_uploader("Upload file", accept_multiple_files=True, type=["jpg", "jpeg"])
     if uploaded_files and len(uploaded_files) > 3:
-        st.warning(f"Maximum {3} files allowed. Please upload fewer files.")
+        uploaded_files = uploaded_files[:3]
+        st.warning(f"Maximum {3} files allowed.")
     submitted = st.form_submit_button("Process Uploaded Image")    
 
 #if st.button("Process Uploaded Image") or process_image:
@@ -88,7 +89,7 @@ if submitted or process_image:
         result_df = image_processing_function(unique_folder_path)
 
         grouped_df = result_df.groupby('Image Name')
-        st.markdown("### Detected Concepts and Non-Target Percentages")
+        st.markdown("### Detected Concepts and Error-rate Percentages")
 
         for image_name, group_df in grouped_df:
             col1, col2 = st.columns([1, 2])
