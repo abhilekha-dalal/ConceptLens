@@ -1,6 +1,6 @@
 # ConceptLens: from Pixels to Understanding
 ![example](example.JPG)
-<p align="center">From image to Detected Concept along respective error-margin percentages</p>
+
 
 ## Summary
 Dive into the vibrant world of ConceptLens, where we turn the complex labyrinths of artificial neural networks into a visual spectacle of understanding! At ConceptLens, we pride ourselves on our pioneering approach to interpreting hidden neuron activations. Our unique blend of advanced deep learning models and symbolic methods illuminates the once obscure decision-making of neural networks. It’s like having a conversation with the AI itself, as you uncover what activates neurons and how they react to various stimuli—this is our error-margin analysis in action, a feature you’ll find only with us.
