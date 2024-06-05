@@ -10,7 +10,7 @@ col1, col2 = st.columns([3,1.5])
 
 # First vertical container in the first column
 with col1:
-    st.image('example1.jpg', use_column_width = True)
+    st.image('example1.JPG', use_column_width = True)
     # ### video
     # video_file = open('video.mp4', 'rb')
     # video_bytes = video_file.read()
