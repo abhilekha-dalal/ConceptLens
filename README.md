@@ -10,7 +10,19 @@ Our intuitive interface invites you to upload images and witness the magic unfol
 For a deep dive into the science behind our platform, our [*Research Paper*](https://arxiv.org/abs/2405.09580) - “Error-margin Analysis for Hidden Neuron Activation Labels” awaits your curiosity. We envision a world where researchers like you leverage ConceptLens to unlock groundbreaking insights into images.
 
 ## Local Installation
-
+1. **Clone the repository:**
+   ```bash
+   git clone <repository_url>
+   cd <repository_directory>
+2. **Install the required dependencies:** 
+Make sure you have all the necessary requirements by referring to the requirements.txt file:
+```bash
+   pip install -r requirements.txt
+```
+4. **Run the project:**
+```bash
+streamlit run Home.py
+```
 
 ## Authors
 Please feel free to contact with any issues, comments, or questions.
