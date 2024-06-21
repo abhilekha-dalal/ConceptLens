@@ -16,13 +16,13 @@ For a deep dive into the science behind our platform, our [*Research Paper*](htt
    cd <repository_directory>
 2. **Install the required dependencies:** 
 Make sure you have all the necessary requirements by referring to the requirements.txt file:
-```bash
+   ```bash
    pip install -r requirements.txt
-```
+   ```
 4. **Run the project:**
-```bash
-streamlit run Home.py
-```
+   ```bash
+   streamlit run Home.py
+   ```
 
 ## Authors
 Please feel free to contact with any issues, comments, or questions.
